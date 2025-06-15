@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@soderia.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "email": "cliente@soderia.com",
+      "password": "cliente123",
+      "role": "cliente"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Soda de Cola 1L",
+      "price": 2.5,
+      "stock": 100
+    },
+    {
+      "id": "2",
+      "name": "Soda de Naranja 1L",
+      "price": 2.5,
+      "stock": 80
+    },
+    {
+      "id": "ec08",
+      "name": "",
+      "price": null,
+      "stock": null
+    },
+    {
+      "id": "a932",
+      "name": "",
+      "price": null,
+      "stock": null
+    }
+  ],
+  "clients": [
+    {
+      "id": "1",
+      "name": "Juan Pérez",
+      "email": "juan@example.com",
+      "phone": "123456789"
+    }
+  ],
+  "sales": [
+    {
+      "id": "1",
+      "clientId": 1,
+      "productId": 1,
+      "quantity": 2,
+      "total": 5,
+      "date": "2025-06-14"
+    }
+  ]
+}
